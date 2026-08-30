@@ -139,6 +139,7 @@ themes/*-chunk.js.map
 
 # Config
 
+/.env
 /.env.local
 /.env.local.php
 /.env.*.local
@@ -233,9 +234,5 @@ docker-compose.override.yml
 # config vscode
 .hintrc
 
-# Eclipse IDE
-/.buildpath
-/.project
-
-# Environment data
-/.env
+# Claude Code - personal settings (commands are shared, settings are not)
+.claude/settings.local.json
